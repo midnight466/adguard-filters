@@ -1,0 +1,164 @@
+! =========================================================
+! UNIVERSAL ADS + TRACKING BLOCKLIST
+! Stable ISP Friendly Version
+! =========================================================
+
+! =========================
+! GOOGLE ADS
+! =========================
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||adservice.google.com^
+||pagead2.googlesyndication.com^
+||partnerad.l.doubleclick.net^
+||ad.doubleclick.net^
+||static.doubleclick.net^
+||googleads.g.doubleclick.net^
+
+! =========================
+! GOOGLE TRACKING
+! =========================
+||google-analytics.com^
+||analytics.google.com^
+||ssl.google-analytics.com^
+||region1.google-analytics.com^
+
+! =========================
+! META ADS
+! =========================
+||facebookads.net^
+||connect.facebook.net^
+||analytics.facebook.com^
+||ads.facebook.com^
+
+! =========================
+! INSTAGRAM TRACKING
+! =========================
+||graph.instagram.com^
+
+! =========================
+! TIKTOK ADS
+! =========================
+||ads.tiktok.com^
+||analytics.tiktok.com^
+||business-api.tiktok.com^
+||log.byteoversea.com^
+
+! =========================
+! SNAPCHAT ADS
+! =========================
+||tr.snapchat.com^
+||adsapi.snapchat.com^
+
+! =========================
+! TWITTER/X ADS
+! =========================
+||analytics.twitter.com^
+||ads-twitter.com^
+||static.ads-twitter.com^
+
+! =========================
+! MOBILE GAME ADS
+! =========================
+||unityads.unity3d.com^
+||ads.unity.com^
+
+||applovin.com^
+||applovin.io^
+
+||vungle.com^
+||ads.vungle.com^
+
+||admob.com^
+
+||supersonicads.com^
+||ironsrc.mobi^
+||ironsrc.net^
+
+||chartboost.com^
+||live.chartboost.com^
+
+||mintegral.com^
+||mobvista.com^
+
+||inmobi.com^
+
+||startappservice.com^
+||startappexchange.com^
+
+||adcolony.com^
+
+||fyber.com^
+
+||tapjoy.com^
+
+! =========================
+! AMAZON ADS
+! =========================
+||amazon-adsystem.com^
+
+! =========================
+! MICROSOFT ADS
+! =========================
+||bingads.microsoft.com^
+||ads.msn.com^
+
+! =========================
+! SMART TV ADS
+! =========================
+||samsungads.com^
+||lgsmartad.com^
+||smartclip.net^
+
+! =========================
+! POPUP / MALVERTISING
+! =========================
+||popads.net^
+||popcash.net^
+||propellerads.com^
+||exoclick.com^
+||trafficjunky.net^
+
+! =========================
+! TRACKERS / ANALYTICS
+! =========================
+||segment.io^
+||mixpanel.com^
+||hotjar.com^
+||newrelic.com^
+||crashlytics.com^
+||app-measurement.com^
+||adjust.com^
+||branch.io^
+||kochava.com^
+||singular.net^
+
+! =========================
+! PUSH ADS
+! =========================
+||onesignal.com^
+||pushwoosh.com^
+
+! =========================
+! TELEMETRY
+! =========================
+||telemetry.microsoft.com^
+||vortex.data.microsoft.com^
+||settings-win.data.microsoft.com^
+
+! =========================
+! AD NETWORKS
+! =========================
+||adnxs.com^
+||taboola.com^
+||outbrain.com^
+||zedo.com^
+||revcontent.com^
+||mgid.com^
+||hilltopads.net^
+||clickadu.com^
+
+! =========================================================
+! END
+! =========================================================
