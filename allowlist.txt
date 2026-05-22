@@ -1,0 +1,93 @@
+! =========================================================
+! SAFE ALLOWLIST - UPDATED
+! Low Breakage / ISP Friendly
+! =========================================================
+
+! =========================
+! GOOGLE CORE SERVICES
+! =========================
+@@||googlevideo.com^
+@@||gstatic.com^
+@@||googleapis.com^
+@@||ytimg.com^
+@@||googleusercontent.com^
+
+! =========================
+! CLOUDFLARE / CDN
+! =========================
+@@||cloudflare.com^
+@@||cloudflare-dns.com^
+
+@@||akamaihd.net^
+@@||akamaized.net^
+
+@@||fastly.net^
+
+! =========================
+! SOCIAL / COMMUNICATION
+! =========================
+@@||facebook.com^
+@@||fbcdn.net^
+@@||fbsbx.com^
+
+@@||whatsapp.com^
+@@||whatsapp.net^
+
+@@||telegram.org^
+@@||t.me^
+@@||telegram.me^
+
+! =========================
+! APPLE SERVICES
+! =========================
+@@||apple.com^
+@@||icloud.com^
+
+! =========================
+! MICROSOFT SERVICES
+! =========================
+@@||microsoft.com^
+@@||office.com^
+@@||windowsupdate.com^
+
+! =========================
+! LINUX / OS
+! =========================
+@@||ubuntu.com^
+@@||debian.org^
+
+! =========================
+! GAMING (STABLE)
+! =========================
+@@||steamstatic.com^
+@@||steamcontent.com^
+
+@@||epicgames.com^
+
+@@||freefiremobile.com^
+@@||garena.com^
+
+@@||pubgmobile.com^
+@@||igamecj.com^
+
+! =========================
+! ISP / LOCAL SERVICES
+! =========================
+@@||ispdigital.cloud^
+@@||fastdotcom.ispdigital.cloud^
+
+! =========================
+! BANKING / PAYMENT
+! =========================
+@@||bkash.com^
+@@||merchantportal.bkash.com^
+
+! =========================
+! DNS SAFE FALLBACK
+! =========================
+@@||1.1.1.1^
+@@||dns.google^
+
+! =========================================================
+! END
+! =========================================================
