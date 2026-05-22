@@ -1,5 +1,5 @@
 ! =========================================================
-! ISP SAFE ALLOWLIST - MERGED VERSION
+! ADGUARD HOME - ALLOWLIST (MERGED SAFE VERSION)
 ! =========================================================
 
 ! =========================
@@ -9,29 +9,25 @@
 @@||youtube.com^
 @@||googlevideo.com^
 @@||ytimg.com^
-@@||googleapis.com^
 @@||gstatic.com^
+@@||googleapis.com^
 
 ! =========================
-! CDN / INFRASTRUCTURE
+! CDN / INTERNET INFRA
 ! =========================
 @@||cloudflare.com^
-@@||akamaihd.net^
 @@||akamaized.net^
+@@||akamaihd.net^
 @@||fastly.net^
 
 ! =========================
-! SOCIAL / MESSAGING
+! SOCIAL / COMMUNICATION
 ! =========================
 @@||facebook.com^
 @@||fbcdn.net^
 @@||instagram.com^
-
 @@||whatsapp.com^
 @@||whatsapp.net^
-
-@@||telegram.org^
-@@||t.me^
 
 ! =========================
 ! APPLE SERVICES
@@ -43,24 +39,16 @@
 ! MICROSOFT SERVICES
 ! =========================
 @@||microsoft.com^
-@@||office.com^
 @@||windows.com^
+@@||office.com^
 
 ! =========================
-! LINUX / OS UPDATES
-! =========================
-@@||ubuntu.com^
-@@||debian.org^
-
-! =========================
-! GAMING
+! GAMING SERVICES
 ! =========================
 @@||steamstatic.com^
 @@||steamcontent.com^
-
 @@||freefiremobile.com^
 @@||garena.com^
-
 @@||pubgmobile.com^
 @@||igamecj.com^
 
@@ -69,10 +57,11 @@
 ! =========================
 @@||bkash.com^
 @@||merchantportal.bkash.com^
-
 @@||ispdigital.cloud^
 @@||fastdotcom.ispdigital.cloud^
 
-! =========================================================
-! END
-! =========================================================
+! =========================
+! OS / LINUX UPDATES
+! =========================
+@@||ubuntu.com^
+@@||debian.org^
