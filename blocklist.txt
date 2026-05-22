@@ -1,6 +1,5 @@
 ! =========================================================
-! UNIVERSAL ADS + TRACKING BLOCKLIST
-! Stable ISP Friendly Version
+! ISP SAFE BLOCKLIST - MERGED VERSION
 ! =========================================================
 
 ! =========================
@@ -10,154 +9,74 @@
 ||googlesyndication.com^
 ||googleadservices.com^
 ||adservice.google.com^
-||pagead2.googlesyndication.com^
-||partnerad.l.doubleclick.net^
-||ad.doubleclick.net^
-||static.doubleclick.net^
-||googleads.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
 
 ! =========================
-! GOOGLE TRACKING
+! YOUTUBE ADS (LIGHT SAFE LEVEL)
 ! =========================
-||google-analytics.com^
-||analytics.google.com^
-||ssl.google-analytics.com^
-||region1.google-analytics.com^
-
-! =========================
-! META ADS
-! =========================
-||facebookads.net^
-||connect.facebook.net^
-||analytics.facebook.com^
-||ads.facebook.com^
-
-! =========================
-! INSTAGRAM TRACKING
-! =========================
-||graph.instagram.com^
-
-! =========================
-! TIKTOK ADS
-! =========================
-||ads.tiktok.com^
-||analytics.tiktok.com^
-||business-api.tiktok.com^
-||log.byteoversea.com^
-
-! =========================
-! SNAPCHAT ADS
-! =========================
-||tr.snapchat.com^
-||adsapi.snapchat.com^
-
-! =========================
-! TWITTER/X ADS
-! =========================
-||analytics.twitter.com^
-||ads-twitter.com^
-||static.ads-twitter.com^
-
-! =========================
-! MOBILE GAME ADS
-! =========================
-||unityads.unity3d.com^
-||ads.unity.com^
-
-||applovin.com^
-||applovin.io^
-
-||vungle.com^
-||ads.vungle.com^
-
-||admob.com^
-
-||supersonicads.com^
-||ironsrc.mobi^
-||ironsrc.net^
-
-||chartboost.com^
-||live.chartboost.com^
-
-||mintegral.com^
-||mobvista.com^
-
-||inmobi.com^
-
-||startappservice.com^
-||startappexchange.com^
-
-||adcolony.com^
-
-||fyber.com^
-
-||tapjoy.com^
-
-! =========================
-! AMAZON ADS
-! =========================
-||amazon-adsystem.com^
-
-! =========================
-! MICROSOFT ADS
-! =========================
-||bingads.microsoft.com^
-||ads.msn.com^
-
-! =========================
-! SMART TV ADS
-! =========================
-||samsungads.com^
-||lgsmartad.com^
-||smartclip.net^
-
-! =========================
-! POPUP / MALVERTISING
-! =========================
-||popads.net^
-||popcash.net^
-||propellerads.com^
-||exoclick.com^
-||trafficjunky.net^
-
-! =========================
-! TRACKERS / ANALYTICS
-! =========================
-||segment.io^
-||mixpanel.com^
-||hotjar.com^
-||newrelic.com^
-||crashlytics.com^
-||app-measurement.com^
-||adjust.com^
-||branch.io^
-||kochava.com^
-||singular.net^
-
-! =========================
-! PUSH ADS
-! =========================
-||onesignal.com^
-||pushwoosh.com^
-
-! =========================
-! TELEMETRY
-! =========================
-||telemetry.microsoft.com^
-||vortex.data.microsoft.com^
-||settings-win.data.microsoft.com^
+||youtube.com/pagead/*
+||youtube.com/api/stats/ads*
+||youtubei.googleapis.com/*ad*
+||googlevideo.com/videoplayback*adformat*
 
 ! =========================
 ! AD NETWORKS
 ! =========================
-||adnxs.com^
 ||taboola.com^
 ||outbrain.com^
-||zedo.com^
-||revcontent.com^
 ||mgid.com^
-||hilltopads.net^
+
+||propellerads.com^
+||popads.net^
+||exoclick.com^
+||adsterra.com^
+||onclickads.net^
 ||clickadu.com^
+||admaven.com^
+
+||amazon-adsystem.com^
+
+! =========================
+! SOCIAL ADS / TRACKING
+! =========================
+||ads.tiktok.com^
+||analytics.tiktok.com^
+||log.byteoversea.com^
+
+! =========================
+! MOBILE GAME ADS SDK
+! =========================
+||unityads.unity3d.com^
+||applovin.com^
+||chartboost.com^
+||vungle.com^
+||adcolony.com^
+||ironsource.com^
+||startappservice.com^
+||inmobi.com^
+
+! =========================
+! TRACKING / ANALYTICS
+! =========================
+||google-analytics.com^
+||analytics.google.com^
+||mixpanel.com^
+||amplitude.com^
+||segment.io^
+||hotjar.com^
+||appsflyer.com^
+||adjust.com^
+||branch.io^
+
+! =========================
+! OEM ADS
+! =========================
+||samsungads.com^
+||smetrics.samsung.com^
+||ads.xiaomi.com^
+||mistat.xiaomi.com^
+||appmetrica.yandex.ru^
+||metrika.yandex.ru^
 
 ! =========================================================
 ! END
