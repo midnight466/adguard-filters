@@ -1,41 +1,37 @@
 ! =========================================================
-! SAFE ALLOWLIST - UPDATED
-! Low Breakage / ISP Friendly
+! ISP SAFE ALLOWLIST - MERGED VERSION
 ! =========================================================
 
 ! =========================
 ! GOOGLE CORE SERVICES
 ! =========================
+@@||google.com^
+@@||youtube.com^
 @@||googlevideo.com^
-@@||gstatic.com^
-@@||googleapis.com^
 @@||ytimg.com^
-@@||googleusercontent.com^
+@@||googleapis.com^
+@@||gstatic.com^
 
 ! =========================
-! CLOUDFLARE / CDN
+! CDN / INFRASTRUCTURE
 ! =========================
 @@||cloudflare.com^
-@@||cloudflare-dns.com^
-
 @@||akamaihd.net^
 @@||akamaized.net^
-
 @@||fastly.net^
 
 ! =========================
-! SOCIAL / COMMUNICATION
+! SOCIAL / MESSAGING
 ! =========================
 @@||facebook.com^
 @@||fbcdn.net^
-@@||fbsbx.com^
+@@||instagram.com^
 
 @@||whatsapp.com^
 @@||whatsapp.net^
 
 @@||telegram.org^
 @@||t.me^
-@@||telegram.me^
 
 ! =========================
 ! APPLE SERVICES
@@ -48,21 +44,19 @@
 ! =========================
 @@||microsoft.com^
 @@||office.com^
-@@||windowsupdate.com^
+@@||windows.com^
 
 ! =========================
-! LINUX / OS
+! LINUX / OS UPDATES
 ! =========================
 @@||ubuntu.com^
 @@||debian.org^
 
 ! =========================
-! GAMING (STABLE)
+! GAMING
 ! =========================
 @@||steamstatic.com^
 @@||steamcontent.com^
-
-@@||epicgames.com^
 
 @@||freefiremobile.com^
 @@||garena.com^
@@ -71,22 +65,13 @@
 @@||igamecj.com^
 
 ! =========================
-! ISP / LOCAL SERVICES
-! =========================
-@@||ispdigital.cloud^
-@@||fastdotcom.ispdigital.cloud^
-
-! =========================
-! BANKING / PAYMENT
+! BANKING / LOCAL SERVICES
 ! =========================
 @@||bkash.com^
 @@||merchantportal.bkash.com^
 
-! =========================
-! DNS SAFE FALLBACK
-! =========================
-@@||1.1.1.1^
-@@||dns.google^
+@@||ispdigital.cloud^
+@@||fastdotcom.ispdigital.cloud^
 
 ! =========================================================
 ! END
