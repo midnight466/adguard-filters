@@ -1,23 +1,35 @@
 ! =========================================================
-! ISP SAFE BLOCKLIST - MERGED VERSION
+! ADGUARD HOME - BLOCKLIST (MERGED SAFE ISP VERSION)
 ! =========================================================
 
 ! =========================
-! GOOGLE ADS
+! GOOGLE ADS + TRACKING
 ! =========================
 ||doubleclick.net^
 ||googlesyndication.com^
 ||googleadservices.com^
 ||adservice.google.com^
-||securepubads.g.doubleclick.net^
+||google-analytics.com^
+||analytics.google.com^
+||googletagmanager.com^
 
 ! =========================
-! YOUTUBE ADS (LIGHT SAFE LEVEL)
+! SOCIAL TRACKING
 ! =========================
-||youtube.com/pagead/*
-||youtube.com/api/stats/ads*
-||youtubei.googleapis.com/*ad*
-||googlevideo.com/videoplayback*adformat*
+||connect.facebook.net^
+||facebook.com/tr^
+||ads.tiktok.com^
+||analytics.tiktok.com^
+||log.byteoversea.com^
+
+! =========================
+! COOKIE / CONSENT SYSTEMS
+! =========================
+||consent.cookiebot.com^
+||onetrust.com^
+||usercentrics.eu^
+||trustarc.com^
+||quantcast.mgr.consensu.org^
 
 ! =========================
 ! AD NETWORKS
@@ -25,7 +37,6 @@
 ||taboola.com^
 ||outbrain.com^
 ||mgid.com^
-
 ||propellerads.com^
 ||popads.net^
 ||exoclick.com^
@@ -33,18 +44,20 @@
 ||onclickads.net^
 ||clickadu.com^
 ||admaven.com^
-
 ||amazon-adsystem.com^
 
 ! =========================
-! SOCIAL ADS / TRACKING
+! MOBILE / OEM ADS
 ! =========================
-||ads.tiktok.com^
-||analytics.tiktok.com^
-||log.byteoversea.com^
+||samsungads.com^
+||smetrics.samsung.com^
+||ads.xiaomi.com^
+||mistat.xiaomi.com^
+||appmetrica.yandex.ru^
+||metrika.yandex.ru^
 
 ! =========================
-! MOBILE GAME ADS SDK
+! GAME ADS SDK
 ! =========================
 ||unityads.unity3d.com^
 ||applovin.com^
@@ -56,28 +69,20 @@
 ||inmobi.com^
 
 ! =========================
-! TRACKING / ANALYTICS
+! TRACKING SERVICES
 ! =========================
-||google-analytics.com^
-||analytics.google.com^
 ||mixpanel.com^
 ||amplitude.com^
 ||segment.io^
 ||hotjar.com^
-||appsflyer.com^
-||adjust.com^
 ||branch.io^
+||adjust.com^
+||appsflyer.com^
 
 ! =========================
-! OEM ADS
+! EXTRA ADS / NETWORKS
 ! =========================
-||samsungads.com^
-||smetrics.samsung.com^
-||ads.xiaomi.com^
-||mistat.xiaomi.com^
-||appmetrica.yandex.ru^
-||metrika.yandex.ru^
-
-! =========================================================
-! END
-! =========================================================
+||ads.*
+||adserver.*
+||tracking.*
+||analytics.*
