@@ -3,21 +3,16 @@
 ! =========================================================
 
 ! =========================
-! GOOGLE ADS + TRACKING
+! GOOGLE ADS ONLY
 ! =========================
 ||doubleclick.net^
 ||googlesyndication.com^
 ||googleadservices.com^
 ||adservice.google.com^
-||google-analytics.com^
-||analytics.google.com^
-||googletagmanager.com^
 
 ! =========================
-! SOCIAL TRACKING
+! TIKTOK ADS / TRACKING
 ! =========================
-||connect.facebook.net^
-||facebook.com/tr^
 ||ads.tiktok.com^
 ||analytics.tiktok.com^
 ||log.byteoversea.com^
@@ -78,11 +73,3 @@
 ||branch.io^
 ||adjust.com^
 ||appsflyer.com^
-
-! =========================
-! EXTRA ADS / NETWORKS
-! =========================
-||ads.*
-||adserver.*
-||tracking.*
-||analytics.*
