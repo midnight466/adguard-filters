@@ -1,24 +1,66 @@
 ! =========================================================
-! ADGUARD HOME - ALLOWLIST (MERGED SAFE VERSION)
+! ADGUARD HOME - ALLOWLIST (MERGED SAFE POWER USER)
 ! =========================================================
 
+
 ! =========================
-! GOOGLE CORE SERVICES
+! GOOGLE / YOUTUBE CORE
 ! =========================
 @@||google.com^
 @@||youtube.com^
+@@||youtu.be^
 @@||googlevideo.com^
 @@||ytimg.com^
 @@||gstatic.com^
 @@||googleapis.com^
+@@||googleusercontent.com^
+@@||ggpht.com^
+@@||gvt1.com^
+
+
+! =========================
+! ANDROID / PLAY SERVICES
+! =========================
+@@||android.com^
+@@||play.google.com^
+@@||firebase.com^
+@@||firebaseio.com^
+@@||firebaseapp.com^
+
 
 ! =========================
 ! CDN / INTERNET INFRA
 ! =========================
 @@||cloudflare.com^
+@@||cloudflare-dns.com^
 @@||akamaized.net^
 @@||akamaihd.net^
+@@||akamai.net^
 @@||fastly.net^
+@@||jsdelivr.net^
+@@||unpkg.com^
+
+
+! =========================
+! MICROSOFT / WINDOWS / OFFICE
+! =========================
+@@||microsoft.com^
+@@||microsoftonline.com^
+@@||windows.com^
+@@||office.com^
+@@||office365.com^
+@@||live.com^
+@@||msauth.net^
+@@||msftauth.net^
+
+
+! =========================
+! APPLE SERVICES
+! =========================
+@@||apple.com^
+@@||icloud.com^
+@@||mzstatic.com^
+
 
 ! =========================
 ! SOCIAL / COMMUNICATION
@@ -28,40 +70,73 @@
 @@||instagram.com^
 @@||whatsapp.com^
 @@||whatsapp.net^
+@@||telegram.org^
+@@||t.me^
 
-! =========================
-! APPLE SERVICES
-! =========================
-@@||apple.com^
-@@||icloud.com^
-
-! =========================
-! MICROSOFT SERVICES
-! =========================
-@@||microsoft.com^
-@@||windows.com^
-@@||office.com^
 
 ! =========================
 ! GAMING SERVICES
 ! =========================
 @@||steamstatic.com^
 @@||steamcontent.com^
+@@||steampowered.com^
 @@||freefiremobile.com^
 @@||garena.com^
 @@||pubgmobile.com^
 @@||igamecj.com^
 
+
 ! =========================
-! BANKING / LOCAL SERVICES
+! BANKING / PAYMENT
 ! =========================
 @@||bkash.com^
 @@||merchantportal.bkash.com^
+@@||stripe.com^
+@@||paypal.com^
+@@||pay.google.com^
+
+
+! =========================
+! BANGLADESH ISP / LOCAL
+! =========================
 @@||ispdigital.cloud^
 @@||fastdotcom.ispdigital.cloud^
 
+
 ! =========================
-! OS / LINUX UPDATES
+! LINUX / OPEN SOURCE
 ! =========================
 @@||ubuntu.com^
+@@||launchpad.net^
+@@||archive.ubuntu.com^
+@@||security.ubuntu.com^
+
 @@||debian.org^
+@@||deb.debian.org^
+@@||snapshot.debian.org^
+
+
+! =========================
+! DEVELOPER SERVICES
+! =========================
+@@||github.com^
+@@||githubusercontent.com^
+@@||githubassets.com^
+@@||gitlab.com^
+
+
+! =========================
+! STREAMING / MEDIA
+! =========================
+@@||netflix.com^
+@@||spotify.com^
+
+
+! =========================
+! CLOUD STORAGE / WORK
+! =========================
+@@||dropbox.com^
+@@||slack.com^
+@@||zoom.us^
+@@||discord.com^
+@@||linkedin.com^
