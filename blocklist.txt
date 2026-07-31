@@ -1,30 +1,58 @@
 ! =========================================================
-! ADGUARD HOME - BLOCKLIST (MERGED SAFE ISP VERSION)
+! ADGUARD HOME - HIGHLY AGGRESSIVE MANUAL BLOCKLIST
 ! =========================================================
 
+
 ! =========================
-! GOOGLE ADS ONLY
+! GOOGLE ADS / TRACKING
 ! =========================
 ||doubleclick.net^
 ||googlesyndication.com^
 ||googleadservices.com^
 ||adservice.google.com^
+||google-analytics.com^
+||analytics.google.com^
+||stats.g.doubleclick.net^
+||firebaseinstallations.googleapis.com^
+||app-measurement.com^
+
 
 ! =========================
-! TIKTOK ADS / TRACKING
+! META / FACEBOOK TRACKING
 ! =========================
-||ads.tiktok.com^
-||analytics.tiktok.com^
-||log.byteoversea.com^
+||facebook.net^
+||connect.facebook.net^
+||pixel.facebook.com^
+||analytics.facebook.com^
+||an.facebook.com^
+
 
 ! =========================
-! COOKIE / CONSENT SYSTEMS
+! MICROSOFT TELEMETRY
 ! =========================
-||consent.cookiebot.com^
-||onetrust.com^
-||usercentrics.eu^
-||trustarc.com^
-||quantcast.mgr.consensu.org^
+||telemetry.microsoft.com^
+||vortex.data.microsoft.com^
+||settings-win.data.microsoft.com^
+||watson.telemetry.microsoft.com^
+||sqm.telemetry.microsoft.com^
+||oca.telemetry.microsoft.com^
+
+
+! =========================
+! APPLE TRACKING
+! =========================
+||metrics.apple.com^
+||supportmetrics.apple.com^
+||analytics.apple.com^
+
+
+! =========================
+! AMAZON TRACKING / ADS
+! =========================
+||amazon-adsystem.com^
+||assoc-amazon.com^
+||advertising.amazon.com^
+
 
 ! =========================
 ! AD NETWORKS
@@ -32,24 +60,53 @@
 ||taboola.com^
 ||outbrain.com^
 ||mgid.com^
-||propellerads.com^
-||popads.net^
-||exoclick.com^
-||adsterra.com^
-||onclickads.net^
-||clickadu.com^
-||admaven.com^
-||amazon-adsystem.com^
+||criteo.com^
+||openx.net^
+||pubmatic.com^
+||rubiconproject.com^
+||appnexus.com^
+||adsrvr.org^
+||media.net^
+||revcontent.com^
+||adskeeper.com^
+||adform.net^
+||yieldmo.com^
+
 
 ! =========================
-! MOBILE / OEM ADS
+! POPUP / MALVERTISING
+! =========================
+||popads.net^
+||popcash.net^
+||propellerads.com^
+||onclickads.net^
+||clickadu.com^
+||exoclick.com^
+||adsterra.com^
+||admaven.com^
+
+
+! =========================
+! TIKTOK / BYTEDANCE
+! =========================
+||ads.tiktok.com^
+||analytics.tiktok.com^
+||log.byteoversea.com^
+||byteoversea.com^
+||musical.ly^
+
+
+! =========================
+! MOBILE OEM TRACKING
 ! =========================
 ||samsungads.com^
 ||smetrics.samsung.com^
 ||ads.xiaomi.com^
 ||mistat.xiaomi.com^
+||tracking.miui.com^
 ||appmetrica.yandex.ru^
 ||metrika.yandex.ru^
+
 
 ! =========================
 ! GAME ADS SDK
@@ -60,16 +117,97 @@
 ||vungle.com^
 ||adcolony.com^
 ||ironsource.com^
-||startappservice.com^
 ||inmobi.com^
+||startappservice.com^
+||tapjoy.com^
+
 
 ! =========================
-! TRACKING SERVICES
+! APP ANALYTICS
 ! =========================
 ||mixpanel.com^
 ||amplitude.com^
 ||segment.io^
 ||hotjar.com^
-||branch.io^
+||fullstory.com^
+||mouseflow.com^
+||clarity.ms^
+||heap.io^
+||logrocket.com^
+
+
+! =========================
+! MOBILE TRACKING SDK
+! =========================
 ||adjust.com^
 ||appsflyer.com^
+||branch.io^
+||kochava.com^
+||singular.net^
+
+
+! =========================
+! PUSH TRACKING
+! =========================
+||onesignal.com^
+||pushwoosh.com^
+||airship.com^
+
+
+! =========================
+! CONSENT / FINGERPRINTING
+! =========================
+||onetrust.com^
+||cookiebot.com^
+||usercentrics.eu^
+||trustarc.com^
+||quantserve.com^
+||quantcast.com^
+
+
+! =========================
+! FINGERPRINT / SESSION TRACKING
+! =========================
+||fingerprint.com^
+||fingerprintjs.com^
+||sentry.io^
+||bugsnag.com^
+
+
+! =========================
+! CRYPTO MINING
+! =========================
+||coinhive.com^
+||coinimp.com^
+||cryptoloot.pro^
+||webminepool.com^
+
+
+! =========================
+! URL TRACKING
+! =========================
+||bitly.com^
+||branch.io^
+||t.co^
+||ow.ly^
+
+
+! =========================
+! SMART TV / IoT TRACKING
+! =========================
+||samsungcloudsolution.com^
+||samsungacr.com^
+||lgsmartad.com^
+||ads.sony.net^
+
+
+! =========================
+! TELEMETRY GENERIC
+! =========================
+||telemetry.*^
+||analytics.*^
+||metrics.*^
+||tracking.*^
+||tracker.*^
+||beacon.*^
+||pixel.*^
